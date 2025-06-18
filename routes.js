@@ -9,7 +9,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 // auth i hash
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 
 // file upload
